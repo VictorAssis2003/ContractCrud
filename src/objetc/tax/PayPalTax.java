@@ -1,6 +1,6 @@
 package objetc.tax;
 
-public class PayPalTax {
+public class PayPalTax implements TaxSystem {
 	public double PayTax(double amount) {
 		return amount*0.01;
 	}
